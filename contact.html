@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta charset="utf-8">
+<title>Yellow Cafe｜お問い合わせ</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link href="http//netdna.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.css" rel="stylesheet">
+<link rel="stylesheet"  href="style.css">
+  </head>
+
+
+<body>
+
+<div class="wrapper">
+<header class="header">
+    <h1 class="logo"><a href="index.html"><img src="images/logo.png" alt="cafe"></a></h1>
+    <nav class="nav">
+        <ul>
+            <li><a href="index.html">ホーム</a></li>
+            <li><a href="about.html">店舗案内</a></li>
+            <li><a href="access.html">アクセス</a></li>
+            <li><a href="menu.html">メニュー</a></li>
+            <li><a href="contact.html">お問い合わせ</a></li>
+    </nav>
+</header>
+
+<body>
+
+<main>
+    <h2>お問い合わせ</h2>
+    <form method="GET" action="contact.html">
+    <div>
+        <label for="kind">お問い合わせの種類</label><br>
+        <select id="kind" name="kind">
+            <option value="reservation" class="yoyaku">ご予約</option>
+            <option value="event">イベントについて</option>
+            <option value="contact">その他のお問い合わせ</option>
+        </select>
+    </div>
+
+    <div>
+        Yellow Cafeにご来店いただいたことはありますか。<br>
+        <label><input type="radio" name="first" value="yes" checked>はい
+        <input type="radio" name="first" value="no">いいえ</label>
+    </div>
+    <div>
+        当カフェをお知りになったきっかけは＞<br>
+        <label><input type="checkbox" name="how" value="friends">知り合いの紹介で
+        <input type="checkbox" name="how" value="magazine">雑誌・Webサイトで見て</label>
+    </div>
+    <div>
+        <label>お問い合わせの件名<br>
+        <input type="text" name="subject" placeholder="お問い合わせ"></label>
+    </div>
+    <div>
+        <label>お問い合わせの具体的な内容<br>
+        <textarea name="message"></textarea></label>
+    </div>
+    <div>
+        <input  type="submit" name="submit" value="送信" class="square_btn">
+    </div>
+    </form>
+</main>
+
+<div class="clearfix">
+
+<footer class="footer">
+<p>©︎Copyright Yellow Cafe. All right reserved.</p>
+</footer>
+</body>
+</html>
