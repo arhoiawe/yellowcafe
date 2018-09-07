@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta charset="utf-8">
+<title>Yellow Cafe｜ホーム</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet"  href="style.css">
+
+
+  </head>
+
+<body #id="index">
+
+<div class="wrapper">
+<header class="header">
+    <h1 class="logo"><a href="index.html"><img src="images/logo.png" alt="cafe"></a></h1>
+    <nav class="nav">
+        <ul>
+            <li><a href="index.html">ホーム</a></li>
+            <li><a href="about.html">店舗案内</a></li>
+            <li><a href="access.html">アクセス</a></li>
+            <li><a href="menu.html">メニュー</a></li>
+            <li><a href="contact.html">お問い合わせ</a></li>
+    </nav>
+</header>
+
+<body>
+<img src="images/top.png" alt="top画像">
+
+
+<section>
+    <h2>季節の素材をほどよく取り入れた気軽に来れる新しいカフェ</h2>
+<p>2018年9月1日に新店「イエローカフェ」がオープンいたします！<br>
+    イエローカフェでは季節の食材を心地よく活かしたシェフこだわりのランチをご用意。<br>またお客様の誕生日や記念日のお祝いのお手伝いをサポートさせていただいております。<br>9月1日〜9月8日の一週間はオープニングイベントを開催します。ぜひこぞってご参加ください。</p>
+
+
+</section>
+
+
+
+<div class="clearfix">
+
+<footer class="footer">
+<p>©︎Copyright Yellow Cafe. All right reserved.</p>
+</footer>
+</body>
+</script>
+</html>
